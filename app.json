@@ -1,0 +1,25 @@
+{
+  "name": "@b_a_h",
+  "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+  "keywords": ["python", "chatbot","scalingo"],
+  "repository": "https://github.com/TYTHONNBV/tnt",
+  "stack": "container",
+  "env": {
+
+      "APP_ID": {
+          "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+          "required": true,
+          "value":"27455984"
+      },
+      "APP_HASH": {
+          "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+          "required": true,
+          "value":"62d5f68ce2e9189636967120220f5755"
+      },
+      "TERMUX": {
+        "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
+        "required": true,
+        "value":""
+      }
+  }
+}
